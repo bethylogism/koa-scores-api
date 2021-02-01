@@ -1,0 +1,22 @@
+{
+  "name": "koa-sports-api",
+  "version": "1.0.0",
+  "description": "Cheeky server for serving your scores data in a variety of ways",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "@koa/cors": "3.0.0",
+    "koa": "2.7.0",
+    "koa-bodyparser": "4.2.1",
+    "koa-docs": "2.0.0",
+    "koa-joi-router": "6.0.0",
+    "koa-route": "3.2.0",
+    "short-uuid": "3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "2.2.1"
+  }
+}
